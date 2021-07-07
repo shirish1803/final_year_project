@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+body{
+background-color: #d5f3ef;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: poppins, sans-serif;
+	font-weight: 500;
+	box-sizing: border-box;
+
+}
+hr{
+	color: black;
+}
+#main{
+	text-align: center;
+	
+}
+#main1{
+	text-align: center;
+	background-color: #a9c4a9;
+}
+
+#heading{
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 40px;
+}
+#heading1{
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#SubHeading{
+	font-size: 25px;
+	font-weight: 700;
+	padding-top: 20px;
+	padding-bottom: 6px;
+}
+#intro{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #006000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<body>
+<div id="main1"><p id="heading">Forecasting of wind power generated using various
+	Algorithm</p>
+	<p id="heading1">By Aditeya Raj, Shirish Bajpai, Anand Raj and Ashish upadhayay<br>
+	   Under the guidance of Dr S Sumathi (HoD EEE, RNS institute of technology)</p> <hr color="#015D20" ></div>
+	
+<div id="main" class="container">	  
+	<p id="intro">The main objective of this project is to offer developing
+	 methods of long-term wind speed forecasting, which can provide tendency
+	 analysis and reference for wind power equipment operation and wind power
+	 system planning. A simple and efficient forecasting method for long-term
+	 wind power forecasting is significant, reliable and highly desirable for
+	 the development of the wind energy systems.</p><hr color="#015D20">
+	 <p id="intro">These are the models used in our project for forecasting.</p>
+	<a href="ARMA.html"><button class="button"><span>ARMA </span></button></a>
+	<a href="ARIMA.html"><button class="button"><span>ARIMA </span></button></a>
+	<a href="SARIMAX.html"><button class="button"><span>SARIMAX </span></button></a>
+	<a href="LSTM.html"><button class="button"><span>LSTM </span></button></a>
+
+	</div>
+	<br>
+	<br>
+</body>
+</html>
+
+
